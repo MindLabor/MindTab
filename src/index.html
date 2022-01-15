@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- #region HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- in case javascript is disabled -->
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=https://www.google.com">
+    </noscript>
+    <!-- in case javascript is disabled -->
+
+    <title>New MindTab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    
+    
+    <script type="module" src="./index.js"></script>
+</head>
+<!-- #endregion HEAD -->
+
+<body>
+
+<main>
+    <picture id="background">
+        <img src="./assets/background.svg" alt="MindTab Logo">
+    </picture>
+    <div id="logo">
+        <img src="./assets/logo.svg" alt="MindTab Logo">
+    </div>
+
+    <div id="search-section">
+        <div id="time"></div>
+        <div id="search">
+            <img src="./assets/google.svg" alt="Search Icon">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+
+    <div>
+        <ul id="link-groups">
+            <template id="link-item-template">
+                <li class="item-li-entry">
+                    <img class="link-item-icon" width="20px" height="20px">
+                    <span class="link-item-text">Outlook</span>
+                </li>
+            </template>
+            <template id="link-group-template">
+                <li class="group-li-entry link-list-hidden">
+                    <img class="link-group-icon" alt="">
+                    <ul class="link-list"></ul>
+                </li>
+            </template>
+        </ul>
+    </div>    
+
+</main>
+
+</body>
+
+</html>

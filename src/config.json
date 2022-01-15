@@ -1,0 +1,66 @@
+
+{
+    "linkGroups": [
+        {
+            "name": "Imat",
+            "faviconHost": "https://ger-imatuve.talentlms.com/index",
+            "links": [
+                {
+                    "name": "Outlook",
+                    "url": "https://webmail.imat-uve.de/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.imat-uve.de%2fowa%2f",
+                    "faviconHost": "https://outlook.live.com/"
+                },
+                {
+                    "name": "GitLab",
+                    "url": "https://git.imat-uve.de/IVS/Nyx/boards?scope=all&utf8=%E2%9C%93&state=opened&assignee_username=braunsa",
+                    "faviconURL": "https://about.gitlab.com/ico/favicon-96x96.png"
+                },
+                {
+                    "name": "Confluence",
+                    "url": "https://team-1595584457812.atlassian.net/wiki/spaces/IVS/pages"
+                }
+            ]
+        },
+        {
+            "name": "Mail",
+            "faviconHost": "https://mail.google.com/mail/u/0/",
+            "links": [
+                {
+                    "name": "Gmail",
+                    "url": "https://mail.google.com/mail/u/0/#inbox",
+                    "faviconHost": "https://mail.google.com/mail/u/0/"
+                },
+                {
+                    "name": "Calendar",
+                    "url": "https://calendar.google.com/calendar/u/0/r",
+                    "faviconURL": "https://calendar.google.com/googlecalendar/images/favicons_2020q4/calendar_13.ico"
+                }
+            ]
+        },
+        {
+            "name": "IU",
+            "faviconHost": "https://www.iu.de/",
+            "links": [
+                {
+                    "name": "Dashboard",
+                    "url": "https://mycampus.iubh.de/my/"
+                },
+                {
+                    "name": "IU Emails",
+                    "url": "https://outlook.office365.com/mail/inbox",
+                    "faviconHost": "https://outlook.live.com/"
+                },
+                {
+                    "name": "IU Learn",
+                    "url": "https://learn.iu.org/home",
+                    "faviconHost": "https://www.iu.de/"
+                },
+                {
+                    "name": "IU Drive",
+                    "url": "https://www.iu.de/e-learning/",
+                    "faviconHost": "https://drive.google.com/drive/folders/1BTM7jnH3IdkTQgmqYUQFN5cXFx0pnP0Z"
+                }
+            ]
+        }
+    ]
+}
